@@ -6,11 +6,19 @@ stepsCompleted:
   - "step-02c-executive-summary"
   - "step-03-success"
   - "step-04-journeys"
+  - "step-05-domain"
+  - "step-06-innovation"
+  - "step-07-project-type"
+  - "step-08-scoping"
+  - "step-09-functional"
+  - "step-10-nonfunctional"
+  - "step-11-polish"
 inputDocuments:
   - "_bmad-output/planning-artifacts/product-brief-Data-Chatbot.md"
   - "_bmad-output/planning-artifacts/product-brief-Data-Chatbot-distillate.md"
   - "docs/He_thong_AI_chatbot_do_uong_healthy.md"
 workflowType: "prd"
+releaseMode: "phased"
 documentCounts:
   productBriefs: 1
   research: 0
@@ -88,15 +96,15 @@ Các kết quả đo lường chính của sản phẩm gồm:
 
 ### MVP - Minimum Viable Product
 
-MVP phải tập trung chứng minh rằng chatbot có thể tư vấn khách hàng hiệu quả và giảm tải nhân sự trong bối cảnh thực tế. Phạm vi bắt buộc gồm knowledge base sản phẩm được chuẩn hóa với FAQ, thông tin sản phẩm, giá, công dụng và chính sách; chatbot trả lời chính xác theo dữ liệu được cung cấp; khả năng tư vấn theo ngữ cảnh cơ bản để gợi ý sản phẩm phù hợp theo nhu cầu; hoạt động đa kênh cơ bản trên các nền tảng như website, Facebook Messenger, Zalo hoặc Telegram; dashboard đơn giản để cập nhật dữ liệu và xem lịch sử hội thoại; và cơ chế chuyển tiếp cho người thật khi chatbot không xử lý được.
+MVP phải tập trung chứng minh rằng chatbot có thể tư vấn khách hàng hiệu quả và giảm tải nhân sự trong bối cảnh thực tế. Phạm vi bắt buộc gồm knowledge base sản phẩm được chuẩn hóa với FAQ, thông tin sản phẩm, giá, công dụng và chính sách; chatbot trả lời chính xác theo dữ liệu được cung cấp; khả năng tư vấn theo ngữ cảnh cơ bản để gợi ý sản phẩm phù hợp theo nhu cầu; vận hành `Zalo-first` với web admin tối giản để hỗ trợ quản trị và handoff; và cơ chế chuyển tiếp cho người thật khi chatbot không xử lý được.
 
 ### Growth Features (Post-MVP)
 
-Sau khi chứng minh được giá trị cốt lõi, hệ thống mở rộng thành một AI sales và customer care assistant. Phạm vi Growth gồm cá nhân hóa tư vấn theo hành vi và lịch sử khách hàng, upsell/cross-sell thông minh, voice AI, tích hợp CRM, đơn hàng, tồn kho và membership, khả năng học từ hội thoại để cải thiện phản hồi, phân tích cảm xúc và mức độ hài lòng, marketing automation cho nhắc mua lại, chăm sóc sau bán và gửi ưu đãi, cùng các agent workflow cho sale, CSKH, chăm sóc khách cũ và thu lead tự động.
+Sau khi chứng minh được giá trị cốt lõi, hệ thống mở rộng thành một AI sales và customer care assistant. Phạm vi Growth gồm cá nhân hóa tư vấn theo hành vi và lịch sử khách hàng, upsell/cross-sell thông minh, tích hợp CRM, đơn hàng, tồn kho và membership, khả năng học từ hội thoại để cải thiện phản hồi, phân tích cảm xúc và mức độ hài lòng, marketing automation cho nhắc mua lại, chăm sóc sau bán và gửi ưu đãi, cùng các agent workflow cho sale, CSKH, chăm sóc khách cũ và thu lead tự động.
 
 ### Vision (Future)
 
-Trong tầm nhìn `2–3 năm`, sản phẩm phát triển thành một AI Customer Operating System toàn diện cho doanh nghiệp. Hệ thống lý tưởng sẽ hiểu dữ liệu sản phẩm, khách hàng, hành vi mua, marketing và vận hành trong một kiến trúc thống nhất; hỗ trợ AI đa nhân cách như sale expert, chăm sóc khách VIP, chuyên gia sản phẩm và mentor cộng đồng; tư vấn đa phương thức qua text, voice và video AI avatar; tự động vận hành toàn bộ funnel từ thu hút lead đến nuôi dưỡng, chốt sale, chăm sóc, tái mua và affiliate/referral; tự học liên tục từ dữ liệu thực tế; dự đoán nhu cầu khách hàng trước khi họ chủ động hỏi; và kết nối omnichannel qua website, social, app, POS, CRM và call center. Kết quả cuối cùng là doanh nghiệp có thể “nhân bản chuyên gia bán hàng tốt nhất” thành AI hoạt động `24/7`.
+Trong tầm nhìn `2–3 năm`, sản phẩm phát triển thành một AI Customer Operating System toàn diện cho doanh nghiệp. Hệ thống lý tưởng sẽ hiểu dữ liệu sản phẩm, khách hàng, hành vi mua, marketing và vận hành trong một kiến trúc thống nhất; hỗ trợ AI đa nhân cách như sale expert, chăm sóc khách VIP, chuyên gia sản phẩm và mentor cộng đồng; tư vấn nhất quán trên nhiều điểm chạm số; tự động vận hành toàn bộ funnel từ thu hút lead đến nuôi dưỡng, chốt sale, chăm sóc, tái mua và affiliate/referral; tự học liên tục từ dữ liệu thực tế; dự đoán nhu cầu khách hàng trước khi họ chủ động hỏi; và kết nối omnichannel qua website, social, app, POS, CRM và call center. Kết quả cuối cùng là doanh nghiệp có thể “nhân bản chuyên gia bán hàng tốt nhất” thành AI hoạt động `24/7`.
 
 ## User Journeys
 
@@ -151,3 +159,230 @@ Các journeys trên làm lộ ra các capability bắt buộc sau:
 - Đo tác động trước/sau khi cập nhật knowledge base.
 - Handoff package đầy đủ ngữ cảnh cùng queue triage và next best action cho CSKH.
 - Tích hợp dữ liệu có kiểm định, rollback và gắn trực tiếp với trust / accuracy.
+
+## Domain-Specific Requirements
+
+### Compliance & Regulatory
+
+Hệ thống phải được định vị rõ là công cụ `wellness commerce` có kiểm soát, không phải công cụ chẩn đoán hay tư vấn y khoa. Mọi phản hồi của chatbot phải nằm trong phạm vi tư vấn sản phẩm, thành phần, cách dùng, chính sách và gợi ý phù hợp theo knowledge base đã được duyệt.
+
+Hệ thống phải có cơ chế `consent` rõ ràng khi thu thập hoặc sử dụng dữ liệu liên quan đến mục tiêu sức khỏe, thói quen sống hoặc các tín hiệu cá nhân có thể ảnh hưởng đến tư vấn. Nội dung phản hồi phải tuân thủ nguyên tắc `claims control`: chatbot chỉ được sử dụng các claims đã được chuẩn hóa và phê duyệt trong knowledge base, không được tự suy diễn hoặc mở rộng sang ngôn ngữ mang tính điều trị, chẩn đoán hoặc thay thế chuyên gia y tế.
+
+Ngoài ra, hệ thống cần lưu vết thay đổi của knowledge base và nội dung tư vấn để phục vụ review, audit nội bộ và kiểm soát chất lượng.
+
+### Technical Constraints
+
+Chatbot phải trả lời theo mô hình grounded trên knowledge base, với ưu tiên cao cho độ chính xác và tính nhất quán giữa các kênh. Hệ thống không được “bịa” câu trả lời khi thiếu dữ liệu hoặc khi truy xuất không đủ độ tin cậy. Trong các tình huống vượt ngoài phạm vi tri thức hoặc vượt guardrails, hệ thống phải chủ động dừng tư vấn và kích hoạt handoff.
+
+Hệ thống phải có các cơ chế kỹ thuật để bảo vệ dữ liệu khách hàng, bao gồm phân quyền truy cập, log hành động quan trọng, kiểm soát nguồn dữ liệu và khả năng theo dõi thay đổi nội dung. Vì sản phẩm hoạt động trong môi trường đa kênh, chatbot cũng phải giữ được sự nhất quán về thông tin và hành vi giữa `Zalo` và `Facebook`, tránh tình trạng cùng một câu hỏi nhưng cho hai câu trả lời khác nhau.
+
+### Integration Requirements
+
+Trong giai đoạn đầu, hệ thống phải tích hợp vận hành tối thiểu trên `Zalo` và `Facebook`. Hai kênh này không chỉ là điểm vào của khách hàng mà còn là nơi cần giữ trải nghiệm tư vấn đồng nhất, lịch sử hội thoại liên tục và khả năng theo dõi hành vi khách hàng xuyên suốt.
+
+Nguồn sự thật cho dữ liệu sản phẩm và knowledge base phải được xác định rõ. Các luồng tích hợp ban đầu cần hỗ trợ ít nhất các lớp dữ liệu sau: nội dung sản phẩm, FAQ, lịch sử hội thoại, tóm tắt handoff và thông tin ngữ cảnh cần thiết cho CSKH. Khi mở rộng sang CRM, đơn hàng, tồn kho hoặc membership, mọi tích hợp phải có cơ chế xác nhận mapping, kiểm tra chất lượng dữ liệu sau đồng bộ và rollback nếu việc tích hợp làm giảm độ tin cậy của tư vấn.
+
+### Risk Mitigations
+
+Rủi ro lớn nhất là chatbot trả lời vượt phạm vi và làm người dùng hiểu nhầm đây là công cụ tư vấn y khoa. Để giảm rủi ro này, hệ thống phải có guardrails cho các câu hỏi về bệnh lý, tình trạng sức khỏe đặc biệt, yêu cầu chẩn đoán hoặc các chủ đề vượt ngoài knowledge base. Trong các trường hợp đó, chatbot phải thừa nhận giới hạn, trấn an người dùng và chuyển tiếp cho người thật đúng lúc.
+
+Rủi ro thứ hai là sai lệch dữ liệu hoặc tích hợp lỗi làm chatbot tư vấn sai. Vì vậy, mọi cập nhật knowledge base và tích hợp mới phải có cơ chế review, đo tác động trước/sau và khả năng rollback. Rủi ro thứ ba là trải nghiệm handoff bị đứt mạch; để giảm điều này, hệ thống phải chuyển đầy đủ lịch sử hội thoại, intent, sentiment và customer context cho CSKH để tránh việc khách hàng phải lặp lại thông tin.
+
+## Web App Specific Requirements
+
+### Project-Type Overview
+
+Sản phẩm được triển khai theo mô hình `web_app` với trọng tâm vận hành là một chatbot tư vấn tích hợp trên `Zalo`, trong khi web giữ vai trò phụ trợ cho quản trị, giám sát và các điểm chạm hỗ trợ khác. Đây không phải một consumer web experience độc lập lấy website làm trung tâm, mà là một hệ thống tư vấn có lớp quản trị web đứng sau để điều phối dữ liệu, theo dõi hội thoại và hỗ trợ handoff.
+
+### Technical Architecture Considerations
+
+Kiến trúc cần tách rõ hai lớp. Lớp thứ nhất là lớp hội thoại đa kênh, trong đó `Zalo` là kênh ưu tiên số một và cần được tối ưu trước về tốc độ phản hồi, tính ổn định và chất lượng handoff. Lớp thứ hai là lớp quản trị web dành cho đội vận hành, CSKH hoặc product owner để cập nhật knowledge base, theo dõi lịch sử hội thoại, xem KPI và xử lý các trường hợp chatbot không đủ độ tin cậy để tiếp tục.
+
+Yêu cầu realtime ở giai đoạn đầu chỉ cần tập trung vào `chat message flow` và `handoff flow`. Hệ thống chưa cần hỗ trợ realtime phức tạp cho trạng thái đơn hàng, tồn kho hoặc queue orchestration đa lớp. Điều này cho phép PRD giữ phạm vi kỹ thuật hợp lý trong MVP, tập trung vào tốc độ phản hồi, đồng bộ hội thoại và continuity giữa AI với người thật.
+
+### Browser Matrix
+
+Vì `Zalo` là kênh chính, web không cần tối ưu cho phạm vi browser quá rộng trong giai đoạn đầu. Web chỉ cần hỗ trợ tốt trên các trình duyệt hiện đại phổ biến, đặc biệt trong bối cảnh mobile browser là chính. Trọng tâm là đảm bảo đội vận hành và CSKH có thể truy cập ổn định từ thiết bị phổ biến mà không đặt gánh nặng compatibility không cần thiết lên MVP.
+
+### Responsive Design
+
+Giao diện web quản trị và các màn hỗ trợ phải theo hướng `mobile-first`, ưu tiên hiển thị rõ ràng, thao tác ngắn gọn, thông tin quan trọng nổi bật và usable trên màn hình nhỏ. Điều này đặc biệt quan trọng nếu đội vận hành hoặc CSKH xử lý nhanh các ca handoff ngay trên điện thoại hoặc thiết bị di động.
+
+### Performance Targets
+
+Hệ thống phải ưu tiên thời gian phản hồi nhanh ở luồng hội thoại, với mục tiêu phản hồi đầu tiên dưới `3 giây` và không vượt quá `5 giây` trong điều kiện bình thường. Đồng thời, luồng handoff phải đủ nhanh để CSKH nhận được toàn bộ context gần như tức thời, tránh cảm giác đứt mạch giữa AI và người thật.
+
+### SEO Strategy
+
+SEO không phải ưu tiên ở giai đoạn đầu. Hệ thống không cần thiết kế chatbot hoặc web quản trị theo mục tiêu index/search visibility. Nếu có website hỗ trợ, SEO chỉ nên được xem là một concern phụ cho content hoặc landing page, không phải driver của kiến trúc MVP.
+
+### Accessibility Level
+
+Ở giai đoạn đầu, yêu cầu accessibility nên tập trung vào mức thực dụng: `mobile-first`, nội dung dễ đọc, thao tác đơn giản, bố cục rõ ràng và giảm ma sát khi sử dụng trên thiết bị di động. Chưa cần đặt mục tiêu compliance formal như WCAG ở mức đầy đủ trong MVP, miễn là trải nghiệm cơ bản rõ ràng và dễ dùng cho nhóm người dùng chính.
+
+### Implementation Considerations
+
+Việc triển khai phải ưu tiên `Zalo-first` trong thứ tự delivery, với web admin là lớp hỗ trợ để vận hành knowledge base, theo dõi hội thoại và xử lý handoff. Điều này có nghĩa là yêu cầu kỹ thuật không nên bị kéo sang các phần web consumer không tạo giá trị ngay trong MVP. Mọi quyết định kiến trúc nên phục vụ ba mục tiêu trước: chatbot trả lời đúng theo knowledge base, handoff liền mạch khi cần người thật, và đội vận hành có đủ công cụ để cải thiện hệ thống liên tục.
+
+## Project Scoping & Phased Development
+
+### MVP Strategy & Philosophy
+
+**MVP Approach:** `Experience MVP`
+
+Mục tiêu của giai đoạn đầu không phải là xây đầy đủ hệ sinh thái AI sales, mà là chứng minh rằng chatbot có thể mang lại trải nghiệm tư vấn đủ mượt, nhanh, đúng và đáng tin để người dùng cảm thấy được hỗ trợ như đang nói chuyện với một tư vấn viên thật. Giá trị cần được chứng minh trước là chất lượng trải nghiệm tư vấn, không phải độ rộng tính năng.
+
+**Resource Requirements:**  
+MVP được giả định triển khai với đội tối thiểu gồm `1 PM/Product owner`, `1 backend/AI engineer`, và `1 CSKH`. Với cấu hình nguồn lực này, các thành phần quản trị, analytics và workflow nội bộ phải được giữ ở mức tối giản, đủ dùng để vận hành và học từ dữ liệu, thay vì theo hướng xây một backoffice đầy đủ chức năng ngay từ đầu.
+
+### MVP Feature Set (Phase 1)
+
+**Core User Journeys Supported:**
+- Khách hàng chính hỏi đáp và nhận tư vấn sản phẩm phù hợp trên `Zalo`
+- Khách hàng edge case được chatbot dừng đúng lúc và handoff an toàn sang người thật
+- CSKH nhận handoff với đủ context để xử lý tiếp không đứt mạch
+- Team vận hành có thể cập nhật knowledge base và rà soát các lỗi quan trọng trong chatbot
+
+**Must-Have Capabilities:**
+- Knowledge base chuẩn hóa cho sản phẩm, FAQ, chính sách và thông tin tư vấn cốt lõi
+- Chatbot grounded theo knowledge base, trả lời nhanh và nhất quán
+- Tư vấn theo ngữ cảnh cơ bản để gợi ý sản phẩm hoặc combo phù hợp
+- Tích hợp vận hành trên `Zalo` là kênh chính
+- Handoff sang người thật với lịch sử hội thoại, tóm tắt nhu cầu, intent và trạng thái cảm xúc cơ bản
+- Guardrails cho các câu hỏi vượt phạm vi, đặc biệt các câu hỏi sức khỏe hoặc yêu cầu chẩn đoán
+- Giao diện quản trị tối giản để cập nhật dữ liệu và xem lịch sử hội thoại quan trọng
+- Theo dõi các chỉ số vận hành cốt lõi như phản hồi, accuracy sơ bộ, handoff rate và mức hài lòng
+
+### Post-MVP Features
+
+**Phase 2 (Post-MVP):**
+- Mở rộng đa kênh ngoài `Zalo`, bao gồm `Facebook`
+- Cá nhân hóa sâu hơn theo hành vi và lịch sử khách hàng
+- Upsell/cross-sell thông minh
+- Tích hợp CRM, đơn hàng, tồn kho và membership
+- Dashboard vận hành đầy đủ hơn với đo tác động trước/sau và review queue tốt hơn
+- Học từ hội thoại để cải thiện phản hồi
+- Marketing automation cơ bản như nhắc mua lại và chăm sóc sau bán
+
+**Phase 3 (Expansion):**
+- Agent workflows chuyên biệt như sale agent, CSKH agent, chăm sóc khách cũ, thu lead tự động
+- AI đa nhân cách và đa phương thức theo phạm vi text
+- Omnichannel đầy đủ giữa website, social, app, POS, CRM và call center
+- AI dự đoán nhu cầu khách hàng
+- AI Customer Operating System hoàn chỉnh theo vision 2-3 năm
+
+### Risk Mitigation Strategy
+
+**Technical Risks:**  
+Rủi ro kỹ thuật lớn nhất là hệ thống trả lời sai, vượt phạm vi hoặc handoff không liền mạch. Cách giảm rủi ro là giữ phạm vi MVP hẹp: một knowledge base chuẩn hóa, một kênh chính là `Zalo`, một lớp handoff rõ ràng, và guardrails nghiêm cho các case nhạy cảm.
+
+**Market Risks:**  
+Rủi ro thị trường là người dùng không cảm thấy chatbot đủ hữu ích để thay thế phần tư vấn ban đầu. MVP giải quyết rủi ro này bằng cách tập trung vào trải nghiệm tư vấn có ngữ cảnh, trả lời nhanh, giải thích rõ vì sao gợi ý phù hợp, và giữ cảm giác hỗ trợ tự nhiên thay vì chỉ FAQ automation.
+
+**Resource Risks:**  
+Rủi ro lớn nhất theo đánh giá hiện tại là đội quá nhỏ so với ambition của sản phẩm. Cách giảm rủi ro là giữ MVP ở mức `Zalo-first`, admin tối giản, analytics tối thiểu, và chưa đưa các capability như voice AI, CRM sâu hoặc omnichannel đầy đủ vào Phase 1. Với đội hiện tại, mục tiêu đúng không phải “xây nền tảng hoàn chỉnh”, mà là chứng minh trải nghiệm tư vấn AI có thể tạo giá trị thật trong phạm vi hẹp.
+
+## Functional Requirements
+
+### Tư vấn sản phẩm và hội thoại khách hàng
+
+- FR1: Khách hàng có thể bắt đầu cuộc trò chuyện với chatbot trên `Zalo`.
+- FR2: Khách hàng có thể đặt câu hỏi về sản phẩm, thành phần, công dụng, chính sách và cách sử dụng.
+- FR3: Chatbot có thể trả lời dựa trên knowledge base đã được phê duyệt.
+- FR4: Chatbot có thể hỏi ngược lại khách hàng để làm rõ nhu cầu trước khi tư vấn.
+- FR5: Chatbot có thể thu thập ngữ cảnh cơ bản như mục tiêu sử dụng, mối quan tâm và loại sản phẩm khách đang tìm.
+- FR6: Chatbot có thể gợi ý sản phẩm hoặc combo phù hợp dựa trên ngữ cảnh đã thu thập.
+- FR7: Chatbot có thể giải thích vì sao một sản phẩm hoặc combo được đề xuất.
+- FR8: Khách hàng có thể tiếp tục hỏi thêm để làm rõ đề xuất trước khi quyết định mua.
+- FR9: Chatbot có thể cung cấp thông tin hỗ trợ quyết định mua như review, thành phần và chính sách liên quan.
+- FR10: Hệ thống có thể lưu lại lịch sử hội thoại để duy trì continuity trong cùng một phiên tư vấn.
+
+### Guardrails và an toàn tư vấn
+
+- FR11: Chatbot có thể nhận diện câu hỏi vượt ngoài phạm vi knowledge base hoặc vượt phạm vi tư vấn an toàn.
+- FR12: Chatbot có thể từ chối trả lời các câu hỏi mang tính chẩn đoán hoặc thay thế tư vấn y khoa.
+- FR13: Chatbot có thể thừa nhận giới hạn khi không đủ độ tin cậy để trả lời.
+- FR14: Chatbot có thể đưa ra thông điệp fallback an toàn thay vì suy diễn câu trả lời.
+- FR15: Chatbot có thể trấn an khách hàng và hướng dẫn bước tiếp theo phù hợp khi không thể tiếp tục tư vấn.
+- FR16: Hệ thống có thể áp dụng các guardrails riêng cho câu hỏi liên quan đến bệnh lý, sức khỏe đặc biệt hoặc case nhạy cảm.
+
+### Handoff và phối hợp với người thật
+
+- FR17: Chatbot có thể chuyển cuộc trò chuyện sang người thật khi gặp case vượt phạm vi hoặc cần xử lý đặc biệt.
+- FR18: Hệ thống có thể tạo bản tóm tắt cuộc trò chuyện trước khi handoff.
+- FR19: Hệ thống có thể chuyển cho CSKH toàn bộ lịch sử hội thoại liên quan.
+- FR20: Hệ thống có thể chuyển kèm nhu cầu khách hàng, sản phẩm đang quan tâm và các điểm chatbot chưa xử lý được.
+- FR21: Hệ thống có thể gắn intent dự đoán cho cuộc trò chuyện trước khi handoff.
+- FR22: Hệ thống có thể gắn trạng thái cảm xúc cơ bản của khách hàng để hỗ trợ ưu tiên xử lý.
+- FR23: CSKH có thể tiếp nhận handoff mà không cần yêu cầu khách hàng lặp lại thông tin từ đầu.
+- FR24: Hệ thống có thể hỗ trợ CSKH xác định mức độ ưu tiên của từng case handoff.
+- FR25: Hệ thống có thể hỗ trợ CSKH bằng gợi ý bước xử lý tiếp theo phù hợp với bối cảnh cuộc trò chuyện.
+
+### Quản lý knowledge base và dữ liệu tư vấn
+
+- FR26: Team vận hành có thể tạo mới, cập nhật và ngừng sử dụng các nội dung trong knowledge base.
+- FR27: Team vận hành có thể quản lý thông tin sản phẩm, FAQ, chính sách và claims được phép sử dụng.
+- FR28: Team vận hành có thể kiểm soát nội dung nào được chatbot dùng để tư vấn.
+- FR29: Hệ thống có thể lưu vết các thay đổi đối với knowledge base.
+- FR30: Team vận hành có thể rà soát các câu trả lời sai hoặc thiếu của chatbot để cải thiện tri thức.
+- FR31: Team vận hành có thể bổ sung các FAQ và tình huống mới phát sinh từ hội thoại thực tế.
+- FR32: Hệ thống có thể phân biệt giữa tri thức đã được phê duyệt và nội dung chưa sẵn sàng để dùng cho tư vấn.
+
+### Vận hành, giám sát và cải thiện liên tục
+
+- FR33: Team vận hành có thể xem lịch sử hội thoại và các case quan trọng cần chú ý.
+- FR34: Team vận hành có thể gắn tag cho các cuộc trò chuyện để phục vụ phân tích và tối ưu.
+- FR35: Team vận hành có thể theo dõi các chỉ số vận hành cốt lõi của chatbot.
+- FR36: Team vận hành có thể xác định các nhóm hội thoại lỗi hoặc có rủi ro cao.
+- FR37: Team vận hành có thể so sánh tác động trước và sau khi cập nhật knowledge base.
+- FR38: Team vận hành có thể ưu tiên các vấn đề cần sửa dựa trên ảnh hưởng đến accuracy, handoff, conversion hoặc risk.
+- FR39: Hệ thống có thể hỗ trợ vòng lặp cải tiến liên tục từ feedback khách hàng và hội thoại thực tế.
+
+### Tích hợp kênh và đồng bộ dữ liệu
+
+- FR40: Hệ thống có thể vận hành chatbot trên `Zalo` như kênh chính trong MVP.
+- FR41: Hệ thống có thể mở rộng sang `Facebook` ở giai đoạn sau mà vẫn giữ logic tư vấn nhất quán.
+- FR42: Hệ thống có thể duy trì source of truth rõ ràng cho dữ liệu sản phẩm và knowledge base.
+- FR43: Hệ thống có thể đồng bộ dữ liệu cần thiết cho tư vấn giữa các thành phần liên quan.
+- FR44: Hệ thống có thể kiểm tra tính hợp lệ của dữ liệu tích hợp trước khi đưa vào sử dụng cho chatbot.
+- FR45: Hệ thống có thể rollback hoặc ngừng sử dụng dữ liệu tích hợp khi dữ liệu đó làm giảm độ tin cậy tư vấn.
+- FR46: Hệ thống có thể theo dõi tác động của tích hợp mới lên chất lượng recommendation và độ tin cậy của chatbot.
+
+### Quản lý khách hàng và ngữ cảnh cuộc trò chuyện
+
+- FR47: Hệ thống có thể gắn thông tin khách hàng liên quan với cuộc trò chuyện khi dữ liệu đó có sẵn.
+- FR48: Hệ thống có thể sử dụng lịch sử tương tác hoặc mua hàng sẵn có để hỗ trợ tư vấn ở các giai đoạn sau MVP.
+- FR49: Hệ thống có thể phân biệt các loại cuộc trò chuyện như mua hàng, tư vấn sâu, khiếu nại hoặc khách VIP.
+- FR50: Hệ thống có thể giữ continuity ngữ cảnh giữa chatbot, CSKH và các thành phần vận hành liên quan.
+
+## Non-Functional Requirements
+
+### Performance
+
+Hệ thống phải hỗ trợ trải nghiệm tư vấn gần thời gian thực cho luồng chatbot và handoff. Phản hồi đầu tiên của chatbot phải được trả về trong dưới `3 giây` ở điều kiện vận hành bình thường, và không vượt quá `5 giây` đối với các tình huống truy xuất và tư vấn cơ bản trong MVP.
+
+Luồng handoff phải đảm bảo CSKH nhận được ngữ cảnh cuộc trò chuyện gần như tức thời sau khi chatbot xác định cần chuyển người thật. Mục tiêu là tránh đứt mạch trải nghiệm và giảm tối đa việc khách hàng phải chờ hoặc lặp lại thông tin khi chuyển sang người xử lý thủ công.
+
+### Security
+
+Hệ thống phải bảo vệ dữ liệu khách hàng và tri thức nội bộ ở mức cơ bản nhưng rõ ràng ngay từ MVP. Tất cả dữ liệu nhạy cảm trong phạm vi sản phẩm phải được kiểm soát truy cập phù hợp, có phân quyền rõ giữa các vai trò vận hành, và có log cho các hành động quan trọng như cập nhật knowledge base, thay đổi nội dung tư vấn hoặc truy cập thông tin liên quan đến khách hàng.
+
+Dữ liệu phải được bảo vệ trong quá trình truyền và lưu trữ theo nguyên tắc mã hóa phù hợp với phạm vi MVP. Hệ thống cũng phải hạn chế việc sử dụng dữ liệu khách hàng ngoài mục đích tư vấn và vận hành đã được xác định trong PRD.
+
+### Scalability
+
+Trong MVP, hệ thống phải hỗ trợ ổn định tối thiểu `50` cuộc trò chuyện đồng thời mà không làm suy giảm nghiêm trọng trải nghiệm tư vấn cơ bản. Khi tải tăng đến ngưỡng này, chatbot vẫn phải giữ được khả năng phản hồi, truy xuất tri thức và handoff trong phạm vi chấp nhận được cho người dùng.
+
+Thiết kế hệ thống cần cho phép mở rộng dần về sau khi sản phẩm tăng số lượng hội thoại, mở thêm kênh như `Facebook`, hoặc tích hợp thêm dữ liệu và capability mới. Tuy nhiên, MVP chưa cần tối ưu cho quy mô rất lớn vượt xa mức sử dụng ban đầu.
+
+### Accessibility
+
+Yêu cầu accessibility trong MVP tập trung ở mức thực dụng: giao diện vận hành và các thành phần hỗ trợ web phải `mobile-first`, dễ đọc, dễ thao tác và phù hợp với màn hình nhỏ. Những thông tin quan trọng như trạng thái handoff, tóm tắt hội thoại, cảnh báo lỗi hoặc tín hiệu ưu tiên phải được hiển thị rõ ràng để giảm nhầm lẫn khi sử dụng trên thiết bị di động.
+
+MVP chưa cần đặt mục tiêu tuân thủ đầy đủ một chuẩn accessibility chính thức, nhưng phải đảm bảo trải nghiệm cơ bản không gây cản trở cho nhóm người dùng chính trong bối cảnh sử dụng thực tế.
+
+### Integration
+
+Hệ thống phải tích hợp ổn định với `Zalo` như kênh vận hành chính trong MVP, và phải duy trì continuity của hội thoại, handoff và ngữ cảnh giữa lớp chatbot với lớp xử lý nội bộ. Khi tích hợp thêm kênh hoặc nguồn dữ liệu, hệ thống phải có cơ chế xác nhận dữ liệu đầu vào, kiểm tra tính nhất quán và ngừng sử dụng dữ liệu tích hợp nếu phát hiện ảnh hưởng tiêu cực đến chất lượng tư vấn.
+
+Vì doanh nghiệp chấp nhận downtime ngắn nếu có fallback sang người thật, các tích hợp phải được thiết kế sao cho lỗi tích hợp không làm tê liệt toàn bộ trải nghiệm. Trong trường hợp lỗi kênh hoặc lỗi đồng bộ, hệ thống phải vẫn hỗ trợ phương án tiếp quản thủ công phù hợp để duy trì dịch vụ khách hàng.
